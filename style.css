@@ -5,7 +5,7 @@
 }
 
 .searchField{
-    width:200px;
+    width:150px;
 }
 .navbar-brand{
     font-size: xx-large;
@@ -60,10 +60,8 @@ header{
         width:100%;
         max-height: 300px;
     }
-    .container{
-        
-    }   
     .main{
         padding-top: 0px;
     }
 }
+
