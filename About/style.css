@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap');
+
+*{
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+.searchField{
+    width:150px;
+}
+.navbar-brand{
+    font-size: xx-large;
+}
+
+.nav-item{font-size: large;}
+
+.main {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    width:100%;
+    
+}
+
+div.row{
+    background-color: white;
+   
+}
+
+.about-company{
+    font-size: x-large;
+    text-indent:50px;
+}
+.brand{
+    margin-top:30%;
+    letter-spacing: 20px;
+}
+.brand-text{
+    font-size: x-large ;
+}
+
+.comments{
+    width:100%;
+    
+    background-color: #313f55;
+}
+.comments .row{
+    margin:0 auto;
+    width:80%;
+    padding-top: 40px;
+    background-color: #313f55;
+    color:white
+}
+
+
+.info{
+    width: 85%;
+    margin:auto auto;
+
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+}
+
+.info-item{
+    font-size: x-large;
+}
+
+.info-list:last-child{
+    margin-bottom: 80px;
+}
+
+.info-item:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.comment-form{
+    width: 80%;
+    margin:auto;
+    font-size: large;
+}
+
+@media(max-width:680px){
+
+
+    .info-item{
+        font-size: medium ;
+        padding:10px;
+    }
+    
+    ul.info-list{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+}

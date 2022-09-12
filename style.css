@@ -51,7 +51,11 @@ header{
     padding-top: 20px;
 }
 
-
+.comment-form{
+    width: 80%;
+    margin:auto;
+    font-size: large;
+}
 
 
 @media(max-width:680px){

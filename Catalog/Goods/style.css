@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap');
+
+*{
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+.searchField{
+    width:150px;
+}
+.navbar-brand{
+    font-size: xx-large;
+}
+
+.nav-item{font-size: large;}
+
+.main{
+    width: 90%;
+    
+}
+
+.content{
+    float: left;
+}
+
+.aside{
+    float:right
+}
+
+.mt-80px{
+    margin-top: 80px;
+}
+
+.filter{
+    background-color: #dbdbdb;
+}
+
+.divider{
+    border-bottom: 2px solid black;
+}
+
+.range-price{
+    width:100%;
+    
+}
+
+.brand-list{
+    list-style-type:none;
+    padding-left:0px;
+}
+
+
+@media(max-width:680px){
+    
+    .main{
+        width:100%;
+        margin-top: 125px;;
+    }
+
+    .filter{
+        font-size: medium;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+}
