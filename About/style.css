@@ -13,17 +13,40 @@
 
 .nav-item{font-size: large;}
 
+header{
+	background: url(https://res.cloudinary.com/creasis/image/upload/q_auto:best,f_auto/v1569252194/promo-video-3_q3qtjx.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 1100px;
+}
+
+.overlay{
+	background-color: rgba(211, 211, 211, 0.6);  
+    height:1100px; 
+}
+
+.headerContent{
+	position: absolute;
+	top: 30%;
+	color: white;
+	min-width: 100%;
+}
+
+
+
+.headerContent h1{
+	letter-spacing: 20px;
+}
+
 .main {
-    margin-top: 15%;
-    margin-bottom: 10%;
+   
+    
     width:100%;
     
 }
 
-div.row{
-    background-color: white;
-   
-}
+
 
 .about-company{
     font-size: x-large;
@@ -82,7 +105,8 @@ div.row{
 
 @media(max-width:680px){
 
-
+   
+    
     .info-item{
         font-size: medium ;
         padding:10px;
