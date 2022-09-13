@@ -42,6 +42,9 @@ iframe{
 
 @media(max-width:680px){
     
+    iframe{
+        width:100%;
+    }
     
     .main{
         padding-top: 0px;
