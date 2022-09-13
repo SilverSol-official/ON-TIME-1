@@ -23,9 +23,7 @@
     border-bottom: solid darkgrey 2px;
 }
 
-.ml-16{
-    margin-left: 16px;
-}
+
 
 @media(max-width:680px){
 
@@ -34,6 +32,6 @@
         margin-top: 140px;
     }
 
-    
+   
 
 }
